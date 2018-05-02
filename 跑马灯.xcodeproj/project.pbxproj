@@ -12,6 +12,7 @@
 		00272DCE2090489600043343 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00272DCC2090489600043343 /* Main.storyboard */; };
 		00272DD02090489600043343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00272DCF2090489600043343 /* Assets.xcassets */; };
 		00272DD32090489600043343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00272DD12090489600043343 /* LaunchScreen.storyboard */; };
+		00272DDB209048C600043343 /* LLMarqueeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00272DDA209048C600043343 /* LLMarqueeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		00272DCF2090489600043343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00272DD22090489600043343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00272DD42090489600043343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00272DDA209048C600043343 /* LLMarqueeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMarqueeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				00272DC82090489600043343 /* AppDelegate.swift */,
 				00272DCA2090489600043343 /* ViewController.swift */,
+				00272DDA209048C600043343 /* LLMarqueeView.swift */,
 				00272DCC2090489600043343 /* Main.storyboard */,
 				00272DCF2090489600043343 /* Assets.xcassets */,
 				00272DD12090489600043343 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00272DDB209048C600043343 /* LLMarqueeView.swift in Sources */,
 				00272DCB2090489600043343 /* ViewController.swift in Sources */,
 				00272DC92090489600043343 /* AppDelegate.swift in Sources */,
 			);
